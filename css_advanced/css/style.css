@@ -1,0 +1,29 @@
+:root {
+  /* Primary brand colors */
+  --color-primary: #C271FF;   /* Green for buttons/CTA */
+  --color-secondary: #000000; /* Orange for highlights */
+  --color-accent: #071629;
+  --color-radial: radial-gradient(circle at center, #29303D, #071629);  /* Blue for links */
+
+  /* Neutral colors */
+  --color-bg: #ffffff;        /* Page background */
+  --color-text: #333333;      /* Body text */
+  --color-muted: #777777;     /* Secondary text */
+
+  /* Utility colors */
+  --color-border: #e0e0e0;    /* Borders & dividers */
+  --color-footer: #111111;    /* Footer background */
+
+}
+
+header{
+    background-color: var(--color-radial);
+    box-sizing: border-box;
+    width: 1440px;
+    height: 1093px;
+}
+
+button{
+    background-color: var(--color-primary);
+    color: var(--color-bg);
+}
