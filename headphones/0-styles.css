@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Source Sans pro", sans-serif;
+}
+
+.navbar {
+    background-image: url('images/headphones_hero_1.jpg');
+    height: 1000px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    /* background-color: yellow; */
+}
+
+.nav-container {
+    margin: 30px 80px 0px 80px;
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    /* background-color: blue; */
+    justify-content: space-between;
+}
+
+.hero-section {
+    /* background-color: aquamarine; */
+    /* margin-top: 5%; */
+    position: absolute;
+    top:70%;
+    left: 50%;
+    /* width: 100%; */
+    transform: translate(-50%, -50%);
+}
+
+.nav-links ul li a {
+    list-style: none;
+    color: white;
+    text-decoration: none;
+}
+
+.nav-links ul li {
+    list-style: none;
+}
+
+.nav-links ul li a:hover {
+    color:#FF6565;
+}
+
+.nav-links ul {
+    margin-right: 20px;
+    display: flex;
+    gap: 20px
+}
+
+.nav-links{
+    margin-top:25px;
+}
+
+.intro-text {
+    font-size: 32px;
+    color: white;
+    font-weight: 600;
+    /* background-color: teal; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#below-intro{
+    color: white;
+    /* margin-top: 20px; */
+    font-size: 16px;
+}
+
+.intro-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: #C271FF; */
+}
+
+.hero-arrangement {
+    background-color: aqua; 
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+
+.sub-text {
+    color: white;
+    display: flex;
+    justify-content: center;
+     background-color: yellowgreen; 
+    gap: 30px;
+    font-size: 10px; 
+}
+
+#smiles {
+    font-size: 20px
+} 
+
+.btn {
+    margin-top: 40px;
+    padding: 10px 30px 10px 30px;
+    text-align: center;
+    background-color: #FF6565;
+    color: white;
+    border-style: none;
+    border-radius: 20px;
+
+}
+
+.btn:hover{
+    opacity: 0.9;
+}
+
+.extra-info{
+    /* background-color: #FF6565; */
+    margin-top: 15%;
+    color:white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding:0px 150px 0px 150px;
+}
+
+
+.what-we-do{
+    /* background-color: #C271FF; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* margin: 0% 20% 0% 20% */
+}
+
+#title{
+    margin:20px 0px 40px 0px;
+}
+#text{
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 32%;
+    margin-right: 32%;
+    text-align: center;
+    margin-bottom:40px;
+}
+
+.services{
+    margin: 0px 20% 0px 20%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: start;
+    gap:40px
+}
+#service-desc{
+    /* background-color: #C271FF; */
+    text-align: center;
+    /* margin-right: 190px; */
+}
+
+.service-1{
+    
+    text-align: start;
+    /* background-color: #FF6565; */
+
+}
+
+#first-text{
+    margin-bottom:15px;
+}
+
+#image-1{
+    width: 100px;
+    height: auto;
+    margin-bottom:10px
+}
+
+#image-2{
+    width: 60px;
+    height: auto;
+    margin-bottom:10px
+}
+
+#image-3{
+    width: 62px;
+    height: auto;
+    margin-bottom:10px
+}
+
+#image-4
+{
+    width: 70px;
+    height: auto;
+    margin-bottom:10px
+}
+
+.our-results{
+    background-image: url("images/headphones_hero_2.jpg");
+    /* background-color: #C271FF; */
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #ffffff;
+    height: auto;
+    
+}
+
+.results-desc{
+    margin-left: 34%;
+    margin-right: 30%;
+    
+}
+.main-results{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+
+}
+
+.results-heading{
+    margin-top: 7%;;
+    margin-bottom: 20px;
+}
+
+.img-4{
+    margin-bottom: 15%;
+}
+
+
+.penta{
+    position:relative;
+    /* background-color: cornflowerblue; */
+
+}
+
+.penta-text{
+    /* background-color: #C271FF; */
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left:47%;
+    top:28%;
+    
+}
+
+.penta-class{
+    display: flex;
+    gap:40px;
+}
+
+.img-penta{
+    width: 250px;
+    height: auto;
+}
+
+#spec{
+font-size: 60px;
+text-align: center;
+}
+
+#spec-1{
+    /* background-color: black; */
+    text-align: start;
+}
